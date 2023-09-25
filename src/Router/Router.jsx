@@ -1,8 +1,9 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, useParams } from "react-router-dom";
 import MainLayout from "../MainLayout/MainLayout";
 import Home from "../Pages/Home/Home";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Donation from "../Pages/Donation/Donation";
+import DonationDetails from "../Pages/DonationDetails/DonationDetails";
 
   const myCreatedRoute = createBrowserRouter([
     {
@@ -21,6 +22,11 @@ import Donation from "../Pages/Donation/Donation";
                 element: <Donation></Donation>,
                 loader : ()=> fetch('/donation_campaign_data.json')
             },
+            {
+                path: "/:donation_details",
+                loader: () => fetch('/donation_campaign_data.json'),
+                element: <DonationDetails></DonationDetails>,
+            }
         ]
 
     }
