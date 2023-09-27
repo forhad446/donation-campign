@@ -1,6 +1,7 @@
 {
     "data": [
         {
+            "id": 1,
             "picture": "https://i.ibb.co/zVHj3dM/Health.png",
             "title": "Clean water for children",
             "category": "Health",
@@ -11,6 +12,7 @@
             "price": "Donate $290"
         },
         {
+            "id": 2,
             "picture": "https://i.ibb.co/1GHBZjq/Rectangle-4288.png",
             "title": "Good education",
             "category": "Education",
@@ -18,9 +20,10 @@
             "card_bg": "#F8714726",
             "text_button_bg": "#FF444A",
             "description": "Good education is a transformative force that transcends boundaries and bridges gaps. It is the cornerstone of progress and the catalyst for positive change in our society. Through education, we cultivate not only knowledge but also empathy, tolerance, and a deeper understanding of the world around us. In the classroom, students embark on a journey of discovery, where they explore the wonders of science, history, literature, and art. They develop essential life skills, such as problem-solving, communication, and teamwork, that prepare them for the challenges of the future.",
-            "price": "$49.99"
+            "price": "Donate $49.99"
         },
         {
+            "id": 3,
             "picture": "https://i.ibb.co/GM4qqq6/Clothing.png",
             "title": "Used Clothing Drive",
             "category": "Clothing",
@@ -28,9 +31,10 @@
             "card_bg": "#79C23F26",
             "text_button_bg": "#79C23F",
             "description": "A Used Clothing Drive is a community-driven initiative that encourages people to donate gently used clothing items for those in need. It's a noble endeavor that serves multiple purposes and has several benefits. Helping the Less Fortunate: One of the primary objectives of a Used Clothing Drive is to assist individuals and families who may not have the means to purchase new clothing. It provides essential clothing items to those who are facing financial difficulties.",
-            "price": "$29.99"
+            "price": "Donate $29.99"
         },
         {
+            "id": 4,
             "picture": "https://i.ibb.co/hsgtCkv/Food.png",
             "title": "Better Food for Everyone",
             "category": "Food",
@@ -38,9 +42,10 @@
             "card_bg": "#F8714726",
             "text_button_bg": "#F87147",
             "description": "The concept of 'Better Food for Everyone' encompasses a holistic approach to food production, distribution, and consumption, aiming to create a healthier and more sustainable food system for all. Here are more than eight lines elaborating on this idea",
-            "price": "$14.99"
+            "price": "Donate $14.99"
         },
         {
+            "id": 5,
             "picture": "https://i.ibb.co/hsgtCkv/Food.png",
             "title": "Better Food for Everyone",
             "category": "Food",
@@ -48,9 +53,10 @@
             "card_bg": "#F8714726",
             "text_button_bg": "#F87147",
             "description": "The concept of 'Better Food for Everyone' encompasses a holistic approach to food production, distribution, and consumption, aiming to create a healthier and more sustainable food system for all. Here are more than eight lines elaborating on this idea",
-            "price": "$14.99"
+            "price": "Donate $14.99"
         },
         {
+            "id": 6,
             "picture": "https://i.ibb.co/GM4qqq6/Clothing.png",
             "title": "Used Clothing Drive",
             "category": "Clothing",
@@ -58,9 +64,43 @@
             "card_bg": "#79C23F26",
             "text_button_bg": "#79C23F",
             "description": "A Used Clothing Drive is a community-driven initiative that encourages people to donate gently used clothing items for those in need. It's a noble endeavor that serves multiple purposes and has several benefits. Helping the Less Fortunate: One of the primary objectives of a Used Clothing Drive is to assist individuals and families who may not have the means to purchase new clothing. It provides essential clothing items to those who are facing financial difficulties.",
-            "price": "$29.99"
+            "price": "Donate $29.99"
         },
         {
+            "id": 7,
+            "picture": "https://i.ibb.co/1GHBZjq/Rectangle-4288.png",
+            "title": "Good education",
+            "category": "Education",
+            "category_bg": "#FF444A33",
+            "card_bg": "#FF444A26",
+            "text_button_bg": "#FF444A",
+            "description": "Good education is a transformative force that transcends boundaries and bridges gaps. It is the cornerstone of progress and the catalyst for positive change in our society. Through education, we cultivate not only knowledge but also empathy, tolerance, and a deeper understanding of the world around us. In the classroom, students embark on a journey of discovery, where they explore the wonders of science, history, literature, and art. They develop essential life skills, such as problem-solving, communication, and teamwork, that prepare them for the challenges of the future.",
+            "price": "Donate $49.99"
+        },
+        {
+            "id": 8,
+            "picture": "https://i.ibb.co/zVHj3dM/Health.png",
+            "title": "Clean water for children",
+            "category": "Health",
+            "category_bg": "#0052FF33",
+            "card_bg": "#0052FF26",
+            "text_button_bg": "#0052FF",
+            "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+            "price": "Donate $290"
+        },
+        {
+            "id": 9,
+            "picture": "https://i.ibb.co/zVHj3dM/Health.png",
+            "title": "Clean water for children",
+            "category": "Health",
+            "category_bg": "#0052FF33",
+            "card_bg": "#0052FF26",
+            "text_button_bg": "#0052FF",
+            "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+            "price": "Donate $290"
+        },
+        {
+            "id": 10,
             "picture": "https://i.ibb.co/1GHBZjq/Rectangle-4288.png",
             "title": "Good education",
             "category": "Education",
@@ -71,36 +111,7 @@
             "price": "$49.99"
         },
         {
-            "picture": "https://i.ibb.co/zVHj3dM/Health.png",
-            "title": "Clean water for children",
-            "category": "Health",
-            "category_bg": "#0052FF33",
-            "card_bg": "#0052FF26",
-            "text_button_bg": "#0052FF",
-            "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-            "price": "Donate $290"
-        },
-        {
-            "picture": "https://i.ibb.co/zVHj3dM/Health.png",
-            "title": "Clean water for children",
-            "category": "Health",
-            "category_bg": "#0052FF33",
-            "card_bg": "#0052FF26",
-            "text_button_bg": "#0052FF",
-            "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-            "price": "Donate $290"
-        },
-        {
-            "picture": "https://i.ibb.co/1GHBZjq/Rectangle-4288.png",
-            "title": "Good education",
-            "category": "Education",
-            "category_bg": "#FF444A33",
-            "card_bg": "#FF444A26",
-            "text_button_bg": "#FF444A",
-            "description": "Good education is a transformative force that transcends boundaries and bridges gaps. It is the cornerstone of progress and the catalyst for positive change in our society. Through education, we cultivate not only knowledge but also empathy, tolerance, and a deeper understanding of the world around us. In the classroom, students embark on a journey of discovery, where they explore the wonders of science, history, literature, and art. They develop essential life skills, such as problem-solving, communication, and teamwork, that prepare them for the challenges of the future.",
-            "price": "$49.99"
-        },
-        {
+            "id": 11,
             "picture": "https://i.ibb.co/GM4qqq6/Clothing.png",
             "title": "Used Clothing Drive",
             "category": "Clothing",
@@ -108,9 +119,10 @@
             "card_bg": "#79C23F26",
             "text_button_bg": "#79C23F",
             "description": "A Used Clothing Drive is a community-driven initiative that encourages people to donate gently used clothing items for those in need. It's a noble endeavor that serves multiple purposes and has several benefits. Helping the Less Fortunate: One of the primary objectives of a Used Clothing Drive is to assist individuals and families who may not have the means to purchase new clothing. It provides essential clothing items to those who are facing financial difficulties.",
-            "price": "$29.99"
+            "price": "Donate $29.99"
         },
         {
+            "id": 12,
             "picture": "https://i.ibb.co/hsgtCkv/Food.png",
             "title": "Better Food for Everyone",
             "category": "Food",
@@ -118,7 +130,7 @@
             "card_bg": "#F8714726",
             "text_button_bg": "#F87147",
             "description": "The concept of 'Better Food for Everyone' encompasses a holistic approach to food production, distribution, and consumption, aiming to create a healthier and more sustainable food system for all. Here are more than eight lines elaborating on this idea",
-            "price": "$14.99"
+            "price": "Donate $14.99"
         }
     ]
 }

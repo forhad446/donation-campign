@@ -1,9 +1,14 @@
 import { useEffect, useState } from "react";
+import toast, { Toaster } from 'react-hot-toast';
 import { Link, useLoaderData, useParams } from "react-router-dom";
+import {addToLS} from './../../utilities/localStorage'
 
 const DonationDetails = () => {
+    const notify = () => { toast.success(`Donation Success!`) };
 
-    const [card, setCard] = useState({})
+    const [card, setCard] = useState({});
+    const [donationItem, setDonationItem] = useState([]);
+
     const { title, picture, description, text_button_bg, price } = card;
     const { donation_details } = useParams()
 
@@ -15,6 +20,14 @@ const DonationDetails = () => {
 
         setCard(donation);
     }, [donation_details, data]);
+    // save to local storage
+    const handleAddToDonationItem = donationInfo => {
+        console.log(donationInfo);
+    const newDonationInfo = [...donationItem];
+    newDonationInfo.push(donationInfo)
+        setDonationItem(newDonationInfo);
+        addToLS(newDonationInfo);
+    }
     return (
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <Link to='' aria-label="View Item">
@@ -25,7 +38,11 @@ const DonationDetails = () => {
                         alt=""
                     />
                     <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-50">
-                        <button style={{ backgroundColor: text_button_bg, opacity: '1 !important' }} className="text-[#FFF] px-6 py-4 font-semibold text-xl md:my-12">
+                        <button onClick={() => {
+                            handleAddToDonationItem(card);
+                            notify()
+                        }}
+                            style={{ backgroundColor: text_button_bg, opacity: '1 !important' }} className="text-[#FFF] px-6 py-4 font-semibold text-xl md:my-12 rounded-md">
                             {price}
                         </button>
                     </div>
@@ -36,6 +53,7 @@ const DonationDetails = () => {
                 <p className="font-normal text-[#0B0B0BB2]">
                     {description}
                 </p>
+                <Toaster />
             </div>
         </div>
     );
